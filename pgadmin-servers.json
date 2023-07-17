@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "go-rss-local",
+      "Group": "go-rss",
+      "Host": "host.docker.internal",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "postgres",
+      "SSLMode": "prefer"
+    }
+  }
+}
