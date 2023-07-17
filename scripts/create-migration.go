@@ -29,7 +29,7 @@ func create_migration(tableName string) {
 
 func main() {
 	if len(os.Args) <= 1 {
-		log.Panic("Please specify a table name as first argument")
+		log.Panic("Please specify a migration name as first argument")
 	}
 	fileName := strings.ToLower(strings.TrimSpace(os.Args[1]))
 	create_migration(fileName)
